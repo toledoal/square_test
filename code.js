@@ -2,6 +2,6 @@
     var dat = document.querySelector("#date");
 
     setInterval(function(){
-        dat.textContent = Date.now();
+        dat.textContent = new Date();
     },1000);
 })()
