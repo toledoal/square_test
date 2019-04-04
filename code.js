@@ -2,6 +2,7 @@
     var dat = document.querySelector("#date");
 
     setInterval(function(){
-        dat.textContent = new Date();
+        var s = new Date().toString();
+        dat.textContent = s;
     },1000);
 })()
